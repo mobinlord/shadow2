@@ -235,16 +235,19 @@ function create_config( )
     "admin",
     "plugins"
     },
-    sudo_users = {198828890},--Sudo users
+    sudo_users = {175636120,159040152},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[W_SaTaN_W V 1
-    Advanced Bot Base On Seed
+    about_text = [[MegaShadow
+    The best one of Telegram bots!
     
-    @WilSoN_DeVeLoPeR[DeVeLoPeR] 
+    List Of Bot Admins:
+    @Ww_Pouria_Redteam_wW
+    @Redteam_03_15
     
-    #Open_Source 
-    [@W_SaTaN_W] [Https://github.com/DeterGent-Legion/MeGa_SaTaN]
+    !! MegaShadow !!
+    
+    Created By Shadow Team
     
 ]],
     help_text_realm = [[
