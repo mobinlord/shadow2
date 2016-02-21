@@ -2,7 +2,7 @@ local function run(msg)
 if msg.text == "hi" then
 	return "Hello bb"
 end
-if msg.text == "shadow" then
+if msg.text == "Megashadow" then
 	return "ble?"
 end
 if msg.text == "Hello" then
@@ -73,14 +73,14 @@ return {
 	patterns = {
 		"^[Hh]i$",
 		"^[Hh]ello$",
-		"^daus$",
-		"^koni$",
-		"^koskesh$",
-		"^konkesh$",
+		"^[Dd]aus$",
+		"^[Kk]oni$",
+		"^[Kk]oskesh$",
+		"^[Kk]onkesh$",
 		"^[Pp]ouria$",
 		"^[Mm]obin$",
 		"^[Kk]ir$",
-		"^[Ss]hadow$",
+		"^[Mm]egashadow$",
 		"^[Bb]ye$",
 		"^[Kk]os$",
 		"^[Ss]alam$",
