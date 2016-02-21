@@ -29,7 +29,7 @@ end
 if msg.text == "پوریا" then
 	return "پوریا بیا این یارو کارت داره"
 end
-if msg.text == "شادو" then
+if msg.text == "مگا" then
 	return "بله؟"
 end
 if msg.text == "کونکش" then
