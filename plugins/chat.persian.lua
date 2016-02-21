@@ -44,10 +44,13 @@ end
 if msg.text == "کسکش" then
 	return "بشین سرش کیسه بکش"
 end
-if msg.text == "shadow" then
+if msg.text == "megashadow" then
 	return "Huuuum?"
 end
-if msg.text == "Shadow" then
+if msg.text == "Mega" then
+	return "جون"
+end
+if msg.text == "mega" then
 	return "جون"
 end
 if msg.text == "خدافظ" then
@@ -77,7 +80,9 @@ return {
 		"^کونکش$",
 		"^خوبی؟$",
 		"^چخبر؟$",
-		"^چه خبر؟$"
+		"^چه خبر؟$",
+		"^[Mm]ega$",
+		"^megashadow$"
 		}, 
 	run = run,
     --privileged = true,
