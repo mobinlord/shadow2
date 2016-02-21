@@ -138,18 +138,18 @@ local function run(msg, matches)
 end
 return {
 	usage = {
-		"stats: Return Stats Group.",
-		"statslist: Return Stats Group.",
-		"stats group [id]: Return Stats Group[id].",
-		"stats megasatan: Return Users And Groups Stats.",
-		"megasatan: Return About Text.",
+		"/stats: Return Stats Group.",
+		"/statslist: Return Stats Group.",
+		"/stats group [id]: Return Stats Group[id].",
+		"/stats Megashadow: Return Users And Groups Stats.",
+		"/Megashadow: Return About Text.",
 		},
   patterns = {
-    "^([Ss]tats)$",
-    "^([Ss]tatslist)$",
-    "^([Ss]tats) (group) (%d+)",
-    "^([Ss]tats) (megasatan)",-- Put everything you like :)
-		"^([Mm]egasatan)"-- Put everything you like :)
+    "^[!/]([Ss]tats)$",
+    "^[!/]([Ss]tatslist)$",
+    "^[!/]([Ss]tats) (group) (%d+)",
+    "^[!/]([Ss]tats) (Megashadow)",-- Put everything you like :)
+    "^[!/]([Mm]egashadow)"-- Put everything you like :)
     }, 
   run = run
 }
