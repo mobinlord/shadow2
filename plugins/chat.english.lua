@@ -47,6 +47,18 @@ end
 if msg.text == "kos" then
 	return "ZHoooooooooon"
 end
+if msg.text == "koskesh" then
+	return "Beshin saresh kise bekesh"
+end
+if msg.text == "daus" then
+	return "Saresho Bebos"
+end
+if msg.text == "koni" then
+	return "Ba short khoni bra kir agha bozorgam avaz bekhoni"
+end
+if msg.text == "konkesh" then
+	return "Kon bde o ghelyon bkesh"
+end
 if msg.text == "Bye" then
 	return "Babay"
 end
@@ -61,6 +73,10 @@ return {
 	patterns = {
 		"^[Hh]i$",
 		"^[Hh]ello$",
+		"^daus$",
+		"^koni$",
+		"^koskesh$",
+		"^konkesh$",
 		"^[Pp]ouria$",
 		"^[Mm]obin$",
 		"^[Kk]ir$",
