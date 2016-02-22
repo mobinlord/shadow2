@@ -235,7 +235,7 @@ function create_config( )
     "admin",
     "plugins"
     },
-    sudo_users = {175636120,159040152},--Sudo users
+    sudo_users = {159040152,175636120},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[MegaShadow
